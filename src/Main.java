@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         // variable declaration
@@ -26,5 +28,11 @@ public class Main {
         char letter = 'A'; // char represents single character
         String letters = "Apple"; // String represents multiple character
         boolean isReal = true;
+
+        // Reference type
+        Date now = new Date();
+
+        // display output
+        System.out.println(now);
     }
 }
