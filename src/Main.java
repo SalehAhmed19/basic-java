@@ -105,6 +105,15 @@ public class Main {
         // constant
         final float pi = 3.1416F;
 
+        // arithmatic expression
+        int result = 10 + 3;
+        double division = (double)10/(double)3;
+        System.out.println(result);
+        System.out.println(division);
 
+        int n = 1;
+        //n++; // increment
+        n += 2; // n = n + 2;
+        System.out.println(n);
     }
 }
