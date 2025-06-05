@@ -46,5 +46,20 @@ public class Main {
 
         // display output
         System.out.println(now);
+
+        // string
+        // String message = new String("Hello world");
+        String message = "Hello world" + "!!";
+
+        System.out.println(message);
+        System.out.println(message.endsWith("!!"));
+        System.out.println(message.startsWith("!!"));
+        System.out.println(message.length());
+        System.out.println(message.indexOf("H"));
+        System.out.println(message.replace("!", "*"));
+        System.out.println(message); // string in java is immutable
+        System.out.println(message.toLowerCase());
+        System.out.println(message.toUpperCase());
+        System.out.println(message.trim()); // trim extra white space
     }
 }
