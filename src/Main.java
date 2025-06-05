@@ -1,4 +1,5 @@
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;
 
 public class Main {
@@ -79,6 +80,18 @@ public class Main {
         String window3 = "c:\t\\Windows\\...";
         System.out.println(window3);
 
+        // array
+        int[] numbers = new int[5];
+        numbers[0] = 10;
+        numbers[1] = 11;
+        numbers[2] = 12;
+        numbers[3] = 13;
+        numbers[4] = 14;
+        System.out.println(Arrays.toString(numbers));
 
+        int[] rolls = {1,2,4,3,5};
+        Arrays.sort(rolls);
+        System.out.println("{rolls_length: "+rolls.length+"}");
+        System.out.println(Arrays.toString(rolls));
     }
 }
