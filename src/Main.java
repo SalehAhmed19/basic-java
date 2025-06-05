@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.Date;
 
 public class Main {
@@ -31,6 +32,17 @@ public class Main {
 
         // Reference type
         Date now = new Date();
+
+        byte x = 1;
+        byte y = x;
+        x = 2;
+        System.out.println(y);
+
+        Point point1 = new Point(1, 1);
+        Point point2 = point1;
+
+        point2.x = 10;
+        System.out.println(point2);
 
         // display output
         System.out.println(now);
