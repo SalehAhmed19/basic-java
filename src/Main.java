@@ -61,5 +61,24 @@ public class Main {
         System.out.println(message.toLowerCase());
         System.out.println(message.toUpperCase());
         System.out.println(message.trim()); // trim extra white space
+
+        // escape sequence
+        // write double quote
+        String greeting = "Hello \"SAM\"";
+        System.out.println(greeting);
+
+        // write slash
+        String window = "c:\\Windows\\...";
+        System.out.println(window);
+
+        // new line
+        String window2 = "c:\n\\Windows\\...";
+        System.out.println(window2);
+
+        // tab
+        String window3 = "c:\t\\Windows\\...";
+        System.out.println(window3);
+
+
     }
 }
