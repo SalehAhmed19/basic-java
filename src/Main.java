@@ -10,7 +10,7 @@ public class Main {
         // copping variable value into the other variable
         int myAge = 23;
         int herAge = myAge;
-        System.out.println(herAge);
+        //System.out.println(herAge);
 
         // types of data
         // primitive
@@ -37,48 +37,48 @@ public class Main {
         byte x = 1;
         byte y = x;
         x = 2;
-        System.out.println(y);
+        //System.out.println(y);
 
         Point point1 = new Point(1, 1);
         Point point2 = point1;
 
         point2.x = 10;
-        System.out.println(point2);
+        //System.out.println(point2);
 
         // display output
-        System.out.println(now);
+        //System.out.println(now);
 
         // string
         // String message = new String("Hello world");
         String message = "Hello world" + "!!";
 
-        System.out.println(message);
-        System.out.println(message.endsWith("!!"));
-        System.out.println(message.startsWith("!!"));
-        System.out.println(message.length());
-        System.out.println(message.indexOf("H"));
-        System.out.println(message.replace("!", "*"));
-        System.out.println(message); // string in java is immutable
-        System.out.println(message.toLowerCase());
-        System.out.println(message.toUpperCase());
-        System.out.println(message.trim()); // trim extra white space
+        //System.out.println(message);
+        //System.out.println(message.endsWith("!!"));
+        //System.out.println(message.startsWith("!!"));
+        //System.out.println(message.length());
+        //System.out.println(message.indexOf("H"));
+        //System.out.println(message.replace("!", "*"));
+        //System.out.println(message); // string in java is immutable
+        //System.out.println(message.toLowerCase());
+        //System.out.println(message.toUpperCase());
+        //System.out.println(message.trim()); // trim extra white space
 
         // escape sequence
         // write double quote
         String greeting = "Hello \"SAM\"";
-        System.out.println(greeting);
+        //System.out.println(greeting);
 
         // write slash
         String window = "c:\\Windows\\...";
-        System.out.println(window);
+        //System.out.println(window);
 
         // new line
         String window2 = "c:\n\\Windows\\...";
-        System.out.println(window2);
+        //System.out.println(window2);
 
         // tab
         String window3 = "c:\t\\Windows\\...";
-        System.out.println(window3);
+        //System.out.println(window3);
 
         // array
         int[] numbers = new int[5];
@@ -87,11 +87,19 @@ public class Main {
         numbers[2] = 12;
         numbers[3] = 13;
         numbers[4] = 14;
-        System.out.println(Arrays.toString(numbers));
+        //System.out.println(Arrays.toString(numbers));
 
         int[] rolls = {1,2,4,3,5};
         Arrays.sort(rolls);
-        System.out.println("{rolls_length: "+rolls.length+"}");
-        System.out.println(Arrays.toString(rolls));
+        //System.out.println("{rolls_length: "+rolls.length+"}");
+        //System.out.println(Arrays.toString(rolls));
+
+        // 2D array
+        int[][] values = new int[2][3];
+        values[0][0] = 1;
+
+        int[][] points = {{1,2,3}, {4,5,6}};
+        System.out.println(Arrays.deepToString(values)); // use deepToString for matrix
+        System.out.println(Arrays.deepToString(points)); // use deepToString for matrix
     }
 }
