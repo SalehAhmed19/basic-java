@@ -99,7 +99,12 @@ public class Main {
         values[0][0] = 1;
 
         int[][] points = {{1,2,3}, {4,5,6}};
-        System.out.println(Arrays.deepToString(values)); // use deepToString for matrix
-        System.out.println(Arrays.deepToString(points)); // use deepToString for matrix
+        //System.out.println(Arrays.deepToString(values)); // use deepToString for matrix
+        //System.out.println(Arrays.deepToString(points)); // use deepToString for matrix
+
+        // constant
+        final float pi = 3.1416F;
+
+
     }
 }
